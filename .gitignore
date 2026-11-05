@@ -1,10 +1,13 @@
 ﻿# Dependencies
 node_modules/
 
-# Expo
+# Expo cache
 .expo/
-dist-*/
-web-build/
+
+# Old dist folders (not docs/ — that is the GitHub Pages output)
+dist-final/
+dist-responsive/
+dist-test/
 
 # Native build output
 ios/
